@@ -1,5 +1,5 @@
 header{
-width: 90%;
+width: 95%;
 margin: auto;
 }
 
@@ -9,14 +9,46 @@ section {
 
 .left-side {
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color:#777;
 }
 
 .right-side {
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    color:#777;
+}
+
+button.right-side{
+    width: 80px;
+    height: 35px;
+    background-color: #4285f4;
+    border: 0;
+    color: aliceblue;
+    font-weight: bold;
+    margin-top: 15px;
 }
 
 .button button{
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+.hover:hover {
+    text-decoration: underline #777;
+}
+
+.list{
+    height: 27px;
+    width: 27px;
+    padding: 0;
+}
+
+.list span{
+    width: 5px;
+    height: 5px;
+    background-color: #888;
+    margin: 1px;
+    float: left;
 }
