@@ -33,6 +33,14 @@ button.right-side{
 
 .button button{
     margin-left: 15px;
+    width: 150px;
+    height: 40px;
+    border: 0;
+    color: #555;
+}
+
+.button button:hover{
+    border: 1px solid #888 ;
 }
 
 .hover:hover {
@@ -51,4 +59,13 @@ button.right-side{
     background-color: #888;
     margin: 1px;
     float: left;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    padding: 5px 40px;
+    font-size: medium;
 }
