@@ -1,0 +1,22 @@
+header{
+width: 90%;
+margin: auto;
+}
+
+section {
+    text-align: center;
+}
+
+.left-side {
+    float: left;
+    margin-left: 10px;
+}
+
+.right-side {
+    float: right;
+    margin-right: 10px;
+}
+
+.button button{
+    margin-left: 10px;
+}
